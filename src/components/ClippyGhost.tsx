@@ -10,7 +10,6 @@ import { Window, WindowHeader, WindowContent, Button } from 'react95';
 import { useNecroStore } from '../store';
 import { generateAIMessage } from '../utils/api';
 import { necroTheme } from '../theme';
-import { necroTheme } from '../theme';
 
 interface ClippyGhostProps {
   visible: boolean;

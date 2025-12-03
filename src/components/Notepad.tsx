@@ -61,7 +61,7 @@ interface NotepadProps {
  * 
  * Validates Requirements 4.1, 4.2, 4.4
  */
-export function Notepad({ windowId, initialContent = '' }: NotepadProps) {
+export function Notepad({ windowId: _windowId, initialContent = '' }: NotepadProps) {
   const [content, setContent] = useState(initialContent);
   const [isProcessing, setIsProcessing] = useState(false);
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
@@ -131,7 +131,7 @@ export function Notepad({ windowId, initialContent = '' }: NotepadProps) {
   };
 
   // Get ominous completion from AI
-  const getOminousCompletion = async (text: string): Promise<string> => {
+  const getOminousCompletion = async (_text: string): Promise<string> => {
     // Fallback ominous completions if API fails
     const fallbackCompletions = [
       '...but they never came back.',

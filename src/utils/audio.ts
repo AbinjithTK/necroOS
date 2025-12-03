@@ -304,7 +304,7 @@ export function stopSound(instanceId: string): void {
  * Stop all currently playing sounds
  */
 export function stopAllSounds(): void {
-  audioManager.activeSources.forEach((source, id) => {
+  audioManager.activeSources.forEach((source) => {
     try {
       source.stop();
     } catch (error) {

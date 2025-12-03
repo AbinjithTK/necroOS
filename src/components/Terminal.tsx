@@ -115,7 +115,7 @@ export function Terminal({ windowId }: TerminalProps) {
   const { 
     windows, 
     openWindow, 
-    closeWindow,
+    closeWindow: _closeWindow,
     triggerGlitch,
     incrementHauntLevel,
     activeGlitches,

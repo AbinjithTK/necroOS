@@ -127,7 +127,7 @@ const DIFFICULTY_CONFIG = {
  * 
  * Validates Requirements 5.1, 5.2, 5.3, 5.4, 5.5
  */
-export function Minesweeper({ windowId, difficulty = 'easy' }: MinesweeperProps) {
+export function Minesweeper({ windowId: _windowId, difficulty = 'easy' }: MinesweeperProps) {
   const config = DIFFICULTY_CONFIG[difficulty];
   const [board, setBoard] = useState<CellData[][]>([]);
   const [gameState, setGameState] = useState<GameState>('playing');

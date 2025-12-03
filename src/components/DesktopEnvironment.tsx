@@ -65,31 +65,16 @@ interface DesktopEnvironmentProps {
 export function DesktopEnvironment({ onHauntLevelChange }: DesktopEnvironmentProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [jumpScareActive, setJumpScareActive] = useState(false);
-  const [isInitialized, setIsInitialized] = useState(false);
   const hauntLevel = useNecroStore((state) => state.hauntLevel);
   const audioEnabled = useNecroStore((state) => state.audioEnabled);
   const ambientPlaying = useNecroStore((state) => state.ambientPlaying);
   const toggleAudio = useNecroStore((state) => state.toggleAudio);
   const setAmbientPlaying = useNecroStore((state) => state.setAmbientPlaying);
-  const triggerJumpScare = useNecroStore((state) => state.triggerJumpScare);
 
-  // Disable jump scares completely for now - too annoying
-  useEffect(() => {
-    // Never enable jump scares
-    setIsInitialized(false);
-  }, []);
-
-  // Handle jump scare trigger (only after initialization)
-  // const handleJumpScare = () => {
-  //   if (!isInitialized) return;
-  //   triggerJumpScare();
-  //   setJumpScareActive(true);
-  // };
-
-  // Disable rage click and mouse shake detection completely
+  // Jump scares disabled for better UX
   // useJumpScareDetection({
-  //   onRageClick: handleJumpScare,
-  //   onMouseShake: handleJumpScare,
+  //   onRageClick: () => {},
+  //   onMouseShake: () => {},
   // });
 
   // Initialize ambient audio on mount

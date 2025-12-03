@@ -211,7 +211,7 @@ const DEFAULT_PROJECTS: ProjectData[] = [
  * 
  * Validates Requirements 6.1, 6.2, 6.3, 6.4
  */
-export function PortfolioManager({ windowId, projects = DEFAULT_PROJECTS }: PortfolioManagerProps) {
+export function PortfolioManager({ windowId: _windowId, projects = DEFAULT_PROJECTS }: PortfolioManagerProps) {
   const [selectedProject, setSelectedProject] = useState<ProjectData | null>(null);
   const incrementHauntLevel = useNecroStore((state) => state.incrementHauntLevel);
 

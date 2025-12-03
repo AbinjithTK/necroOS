@@ -167,7 +167,7 @@ const ERROR_PAGES = [
  * 
  * Validates Requirements 3.4
  */
-export function DarkWeb({ windowId }: DarkWebProps) {
+export function DarkWeb({ windowId: _windowId }: DarkWebProps) {
   const [url, setUrl] = useState('https://');
   const [currentPage, setCurrentPage] = useState(0);
   const incrementHauntLevel = useNecroStore((state) => state.incrementHauntLevel);

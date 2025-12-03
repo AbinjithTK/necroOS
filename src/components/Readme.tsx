@@ -90,7 +90,7 @@ interface ReadmeProps {
  * 
  * Validates Requirements 3.5
  */
-export function Readme({ windowId }: ReadmeProps) {
+export function Readme({ windowId: _windowId }: ReadmeProps) {
   return (
     <ReadmeContainer>
       <Title>📄 NecroOS User Manual</Title>

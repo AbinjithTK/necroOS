@@ -124,7 +124,7 @@ interface MyCorpseProps {
  * 
  * Validates Requirements 3.1
  */
-export function MyCorpse({ windowId }: MyCorpseProps) {
+export function MyCorpse({ windowId: _windowId }: MyCorpseProps) {
   const hauntLevel = useNecroStore((state) => state.hauntLevel);
   const [cpuUsage, setCpuUsage] = useState(13);
   const [diskUsage, setDiskUsage] = useState(66);
