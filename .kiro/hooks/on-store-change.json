@@ -1,0 +1,13 @@
+{
+  "name": "Test Store on Changes",
+  "description": "Runs store-related tests when store files are modified",
+  "trigger": {
+    "type": "onFileSave",
+    "filePattern": "src/store/**/*.ts"
+  },
+  "action": {
+    "type": "command",
+    "command": "npm test -- src/store"
+  },
+  "enabled": true
+}

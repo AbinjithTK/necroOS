@@ -1,0 +1,13 @@
+{
+  "name": "Run Property Tests",
+  "description": "Manually trigger property-based tests with fast-check",
+  "trigger": {
+    "type": "manual",
+    "label": "Run Property Tests"
+  },
+  "action": {
+    "type": "command",
+    "command": "npm test -- --grep 'Property'"
+  },
+  "enabled": true
+}

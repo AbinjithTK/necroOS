@@ -1,0 +1,13 @@
+{
+  "name": "Build Verification",
+  "description": "Verifies the project builds successfully",
+  "trigger": {
+    "type": "manual",
+    "label": "Verify Build"
+  },
+  "action": {
+    "type": "command",
+    "command": "npm run build"
+  },
+  "enabled": true
+}

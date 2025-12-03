@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "name": "Test & Type Check on Save",
+  "description": "Runs tests and type checking when TypeScript files are saved",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "**/*.ts",
+      "**/*.tsx"
+    ]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "npm test && npx tsc --noEmit"
+  }
+}

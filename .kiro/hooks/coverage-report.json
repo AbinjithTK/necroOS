@@ -1,0 +1,13 @@
+{
+  "name": "Generate Coverage Report",
+  "description": "Generates and opens test coverage report",
+  "trigger": {
+    "type": "manual",
+    "label": "Generate Coverage"
+  },
+  "action": {
+    "type": "command",
+    "command": "npm run test:coverage"
+  },
+  "enabled": true
+}

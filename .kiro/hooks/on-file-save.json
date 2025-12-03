@@ -1,0 +1,13 @@
+{
+  "name": "Test & Type Check on Save",
+  "description": "Runs tests and type checking when TypeScript files are saved",
+  "trigger": {
+    "type": "onFileSave",
+    "filePattern": "**/*.{ts,tsx}"
+  },
+  "action": {
+    "type": "command",
+    "command": "npm test & npx tsc --noEmit"
+  },
+  "enabled": true
+}

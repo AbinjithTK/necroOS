@@ -1,0 +1,12 @@
+{
+  "name": "Welcome & Project Status",
+  "description": "Shows project status and reminders when starting a new session",
+  "trigger": {
+    "type": "onSessionCreate"
+  },
+  "action": {
+    "type": "message",
+    "message": "Welcome to NecroOS! 🎃\n\nProject: Horror-themed Windows 95 OS simulation\nTech Stack: React 19 + TypeScript + Vite + react95\nState: Zustand | Testing: Vitest + fast-check\n\nQuick Commands:\n- npm run dev (start dev server)\n- npm test (run tests)\n- npm run lint (check code quality)\n- npm run build (production build)\n\nRemember: All property tests need minimum 100 iterations!"
+  },
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Lint Components on Save",
+  "description": "Runs ESLint on component files when saved",
+  "trigger": {
+    "type": "onFileSave",
+    "filePattern": "src/components/**/*.{ts,tsx}"
+  },
+  "action": {
+    "type": "command",
+    "command": "npm run lint"
+  },
+  "enabled": true
+}

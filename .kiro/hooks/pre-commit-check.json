@@ -1,0 +1,13 @@
+{
+  "name": "Pre-Commit Quality Check",
+  "description": "Runs full test suite, linting, and type checking before commits",
+  "trigger": {
+    "type": "manual",
+    "label": "Run Pre-Commit Checks"
+  },
+  "action": {
+    "type": "command",
+    "command": "npm run lint & npx tsc --noEmit & npm test"
+  },
+  "enabled": true
+}
