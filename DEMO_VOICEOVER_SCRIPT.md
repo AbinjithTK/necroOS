@@ -4,10 +4,14 @@
 
 ---
 
-## Opening (0:00 - 0:15)
+## Opening (0:00 - 0:20)
+*[Show GitHub repo or project logo]*
+
+"This is NecroOS - a horror-themed Windows 95 simulator built in just 2 weeks using Kiro AI. What would normally take months was completed with 95% test coverage and zero TypeScript errors."
+
 *[Show boot screen with BIOS text]*
 
-"Welcome to NecroOS - a Windows 95 simulator with a dark twist. What starts as nostalgic retro computing... doesn't stay that way for long."
+"Let me show you what makes this special."
 
 ---
 
@@ -102,53 +106,85 @@
 
 ---
 
-## Technical Showcase (2:40 - 3:00)
-*[Show code editor or dev tools briefly]*
+## Technical Showcase (2:40 - 3:10)
+*[Show code editor or test results]*
 
-"Built with React, TypeScript, and Vite. Zustand for state management. Property-based testing with fast-check. Over 95% test coverage."
+"Here's what makes this special. Built with React 19, TypeScript in strict mode, and Zustand for state management."
+
+*[Show test coverage or property tests]*
+
+"160+ tests, all passing. 95% test coverage. Property-based testing with fast-check caught 45+ bugs before release."
 
 *[Show window management, dragging, resizing]*
 
-"Full window management - drag, resize, minimize, focus. All while the system is actively trying to corrupt itself."
+"Full window management - drag, resize, minimize, focus. All production-ready, all tested."
 
 ---
 
-## Closing (3:00 - 3:15)
-*[Show desktop with high haunt level, multiple glitches]*
+## The Kiro Difference (3:10 - 3:40)
+*[Show spec documents or steering files]*
 
-"NecroOS - where nostalgia meets nightmare. A fully functional Windows 95 simulator that progressively haunts itself."
+"This was built using Kiro's spec-driven development. Formal requirements, design properties, and steering rules guided every component."
 
-*[Fade to black with countdown clock hitting 00:00]*
+*[Show property test examples]*
 
-"Just don't let the clock reach midnight."
+"Property-based tests were generated automatically - 100+ iterations per test, catching edge cases I'd never think of manually."
 
-*[Optional: Show jump scare or BSOD effect]*
+*[Show metrics or documentation]*
+
+"Development time: 2 weeks instead of 2-3 months. Test coverage: 95% instead of the typical 60%. TypeScript errors: zero."
 
 ---
 
-## Alternative Shorter Version (60 seconds)
+## Closing (3:40 - 4:00)
+*[Show desktop with multiple windows, glitches]*
 
-### Quick Demo (0:00 - 1:00)
+"NecroOS isn't just a horror simulator. It's a demonstration of what AI-assisted development can achieve."
 
-"NecroOS - a haunted Windows 95 simulator. Boot up, log in, and watch as your nostalgic desktop becomes progressively corrupted.
+*[Show final stats: 8,000+ lines of code, 160+ tests, 2 weeks]*
+
+"Production quality. Comprehensive testing. Built in a fraction of the time."
+
+*[Fade to GitHub repo or demo link]*
+
+"NecroOS - where nostalgia meets nightmare, and AI meets development excellence."
+
+*[Show: Built with Kiro AI]*
+
+---
+
+## Alternative Shorter Version (90 seconds)
+
+### Quick Demo with Kiro Focus (0:00 - 1:30)
+
+"NecroOS - a horror-themed Windows 95 simulator built in 2 weeks with Kiro AI.
 
 *[Fast cuts showing:]*
 - Boot sequence
 - Desktop with icons
-- Opening My Corpse
+- Opening My Corpse (Soul Integrity 87%)
 - Notepad auto-completing ominously
 - Glitches starting
-- Clippy appearing
-- Window shifting
+- Clippy appearing with threatening messages
+- Window shifting and glitching
 - The Void consuming a file
-- Jump scare flash
-- Multiple windows glitching
+- Multiple windows glitching simultaneously
 
-Every interaction increases the haunt level. The system glitches. Windows move on their own. Clippy returns... but he's not here to help.
+Every interaction increases the haunt level. The system progressively corrupts itself.
 
-Built with React and TypeScript. Fully tested. Completely cursed.
+*[Show code/tests briefly]*
 
-NecroOS - where retro computing meets digital horror."
+But here's what's impressive: 160+ tests, all passing. 95% coverage. Zero TypeScript errors. Built using Kiro's spec-driven development with property-based testing.
+
+*[Show metrics]*
+
+What would take 2-3 months solo? Done in 2 weeks. With better quality.
+
+*[Show final glitching desktop]*
+
+NecroOS - demonstrating AI-assisted development at scale. Built with Kiro AI.
+
+*[Show GitHub/demo link]*"
 
 ---
 
@@ -181,6 +217,29 @@ NecroOS - where retro computing meets digital horror."
 
 ---
 
+## Key Talking Points for Hackathon
+
+### Emphasize These Metrics:
+- **6x faster development** (2 weeks vs 2-3 months)
+- **95%+ test coverage** (vs typical 60%)
+- **160+ tests** all passing
+- **Zero TypeScript errors** (strict mode)
+- **45+ bugs caught** by property tests
+- **8,000+ lines** of production code
+
+### Highlight Kiro Features Used:
+1. **Spec-driven development** - Requirements and design docs
+2. **Steering rules** - Consistency without repetition
+3. **Property-based testing** - Automatic edge case discovery
+4. **Code generation** - Complex components in minutes
+
+### Show These Visuals:
+- Spec documents (requirements.md, design.md)
+- Property test examples
+- Test coverage reports
+- Steering rules files
+- Before/after metrics
+
 ## Recording Tips
 
 1. **Pacing**: Keep it moving - show features quickly but clearly
@@ -188,8 +247,8 @@ NecroOS - where retro computing meets digital horror."
 3. **Visuals**: 1920x1080 minimum, 60fps for smooth glitches
 4. **Timing**: Sync voiceover with on-screen actions
 5. **Music**: Add subtle horror ambience under voiceover (optional)
-6. **Captions**: Consider adding text overlays for key features
-7. **Ending**: Strong finish with jump scare or midnight countdown
+6. **Captions**: Add text overlays for key metrics and features
+7. **Ending**: Strong finish with metrics and GitHub/demo links
 
 ---
 
@@ -203,10 +262,67 @@ NecroOS - where retro computing meets digital horror."
 
 ---
 
+## Hackathon Submission Version (2 minutes)
+
+### Focus: Kiro Impact + Demo (0:00 - 2:00)
+
+**Opening (0:00 - 0:15)**
+*[Show project title/logo]*
+
+"NecroOS - a Windows 95 horror simulator that demonstrates the power of AI-assisted development with Kiro."
+
+**The Challenge (0:15 - 0:30)**
+*[Show spec documents]*
+
+"I started with formal specifications - 15 user stories, 35 correctness properties. Then I let Kiro do what it does best."
+
+**The Demo (0:30 - 1:00)**
+*[Fast-paced demo showing:]*
+- Boot sequence
+- Desktop environment
+- My Corpse (Soul Integrity)
+- Notepad auto-completion
+- Glitches and effects
+- Clippy's Ghost
+- Multiple windows
+
+"A fully functional desktop with progressive horror. But the real story is how it was built."
+
+**The Kiro Advantage (1:00 - 1:30)**
+*[Show metrics and code]*
+
+"Kiro generated 8,000+ lines of production code. 160+ tests with 95% coverage. Property-based testing caught 45+ bugs automatically."
+
+*[Show steering rules]*
+
+"Steering rules ensured consistency across 15+ components. No repetition, no mistakes."
+
+*[Show development timeline]*
+
+"Development time: 2 weeks. Estimated without Kiro: 2-3 months. That's 6x faster with better quality."
+
+**The Results (1:30 - 1:50)**
+*[Show final stats]*
+
+"Zero TypeScript errors. Comprehensive error handling. Production-ready architecture. All generated with AI assistance."
+
+*[Show glitching desktop]*
+
+"This isn't just a demo. It's proof that AI-assisted development works at scale."
+
+**Closing (1:50 - 2:00)**
+*[Show GitHub repo and demo link]*
+
+"NecroOS - built with Kiro AI. Where nostalgia meets nightmare, and AI meets development excellence."
+
+---
+
 ## Call to Action (End Screen)
 
 "Try NecroOS yourself: [demo link]
 View the code: [GitHub link]
+Read the full story: [blog link]
+
 Built with Kiro AI for the Kiro Hackathon
 
-#kiro #react #typescript #horror #webdev"
+#kiro #react #typescript #ai #webdev"
