@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { render, screen, fireEvent, waitFor, act } from '@testing-library/react';
 import { BootScreen } from './BootScreen';
 
 describe('BootScreen', () => {
@@ -41,7 +41,9 @@ describe('BootScreen', () => {
     }, { timeout: 5000 });
 
     // Trigger progress
-    fireEvent.keyDown(window, { key: 'Enter' });
+    await act(async () => {
+      fireEvent.keyDown(window, { key: 'Enter' });
+    });
 
     // Wait for boot to complete (progress bar animation takes time)
     await waitFor(() => {
